@@ -1,0 +1,21 @@
+{
+    "name": "split-by-path-webpack-plugin",
+    "version": "0.1.0",
+    "description": "Split a Webpack entry bundle into any number of arbitrarily defined smaller bundles",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fabianweb/split-by-path-webpack-plugin"
+    },
+    "keywords": [
+        "webpack",
+        "plugin",
+        "split"
+    ],
+    "author": "Fabian Pirklbauer, SoundCloud, Nick Fisher",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fabianweb/split-by-path-webpack-plugin/issues"
+    },
+    "homepage": "https://github.com/fabianweb/split-by-path-webpack-plugin"
+}
