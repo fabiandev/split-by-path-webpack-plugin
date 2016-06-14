@@ -1,4 +1,4 @@
-## Split By Name Webpack Plugin
+## Split By Path Webpack Plugin
 
 This plugin will split your entry bundle into any number of arbitrarily defined smaller bundles.
 
