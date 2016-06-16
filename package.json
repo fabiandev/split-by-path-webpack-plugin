@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabianweb/split-by-path-webpack-plugin"
+    "url": "https://github.com/fabiandev/split-by-path-webpack-plugin"
   },
   "keywords": [
     "webpack",
@@ -15,7 +15,7 @@
   "author": "Fabian Pirklbauer, SoundCloud, Nick Fisher",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fabianweb/split-by-path-webpack-plugin/issues"
+    "url": "https://github.com/fabiandev/split-by-path-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/fabianweb/split-by-path-webpack-plugin"
+  "homepage": "https://github.com/fabiandev/split-by-path-webpack-plugin"
 }
