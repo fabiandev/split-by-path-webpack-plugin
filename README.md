@@ -29,7 +29,7 @@ module.exports = {
     chunkFilename: "[name]-[chunkhash].js"
   },
   plugins: [
-    new SplitByNamePlugin({
+    new SplitByPathPlugin({
       buckets: [{
         name: 'vendor',
         regex: /(node_modules\/|src\/vendor\/)/
