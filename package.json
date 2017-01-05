@@ -1,6 +1,6 @@
 {
   "name": "split-by-path-webpack-plugin",
-  "version": "0.1.3",
+  "version": "2.0.0",
   "description": "Split a Webpack entry bundle into any number of arbitrarily defined smaller bundles",
   "main": "index.js",
   "repository": {
