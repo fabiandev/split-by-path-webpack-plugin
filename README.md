@@ -2,6 +2,8 @@
 
 This plugin will split your entry bundle into any number of arbitrarily defined smaller bundles.
 
+> Note: For webpack v1.x use version 0.x of this package, 1.x for webpack v2.x
+
 ## Credits
 
 This plugin is based on [split-by-name-webpack-plugin](https://github.com/soundcloud/split-by-name-webpack-plugin).
