@@ -38,7 +38,7 @@ SplitByNamePlugin.prototype.apply = function(compiler) {
       chunks
         // only parse the entry chunk
         .filter(function (chunk) {
-          return chunk.entry;
+          return chunk.hasRuntime();
         })
         .forEach(function(chunk) {
           chunk.modules.slice().forEach(function (mod) {
@@ -65,10 +65,12 @@ SplitByNamePlugin.prototype.apply = function(compiler) {
             .forEach(function (chunk, index, allChunks) { // allChunks = [bucket0, bucket1, .. bucketN, orig]
               if (index) { // not the first one, they get the first chunk as a parent
                 chunk.parents = [allChunks[0]];
+                chunk.entrypoints.forEach(function(ep) {
+                  ep.insertChunk(allChunks[0], chunk);
+                });
               } else { // the first chunk, it gets the others as 'sub' chunks
                 chunk.chunks = allChunks.slice(1);
               }
-              chunk.initial = chunk.entry = !index;
             });
         });
     });
